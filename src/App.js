@@ -5,9 +5,6 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import { ButtonGroup } from "@mui/material";
 
-console.log(process.env.REACT_APP_GIPHY_API_KEY);
-console.log(process.env.REACT_APP_NASA_API_KEY);
-
 function App() {
   const [text, setText] = useState("");  // here we useState to pass a string of text "" from the search textfield
   const [gifs, setGifs] = useState([]);  // here we useState to pass an array [] of data from the Giphy API
